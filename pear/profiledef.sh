@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="pearOS-NiceC0re"
-iso_label="pearOS_NiceC0re_$(date +%Y%m)"
-iso_publisher="The Pear Project <https://pearos.xyz>"
-iso_application="pearOS Live Session"
+iso_name="kiwiOS-NiceC0re"
+iso_label="kiwiOS_NiceC0re_$(date +%Y%m)"
+iso_publisher="The Kiwi Project <https://github.com/olaffx/kiwiOS>"
+iso_application="kiwiOS Live Session"
 iso_version="$(date +%Y.%m)"
 install_dir="arch"
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito' 'uefi-x64.systemd-boot.esp' 'uefi-x64.systemd-boot.eltorito')
